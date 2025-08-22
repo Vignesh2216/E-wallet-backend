@@ -35,7 +35,7 @@ public class SecurityConfig {
             )
             .cors(cors -> cors.configurationSource(request -> {
                 CorsConfiguration config = new CorsConfiguration();
-                config.setAllowedOriginPatterns(List.of("https://e-wallet-frontend-lilac.vercel.app/"));
+                config.setAllowedOriginPatterns(List.of("https://e-wallet-frontend-mu.vercel.app/"));
                 config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
                 config.setAllowedHeaders(List.of("*"));
                 config.setAllowCredentials(true);
